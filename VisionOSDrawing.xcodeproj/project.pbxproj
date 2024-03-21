@@ -12,6 +12,7 @@
 		BEE288BF2BABF1A5002714F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE288BE2BABF1A5002714F1 /* ContentView.swift */; };
 		BEE288C12BABF1A7002714F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE288C02BABF1A7002714F1 /* Assets.xcassets */; };
 		BEE288C42BABF1A7002714F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE288C32BABF1A7002714F1 /* Preview Assets.xcassets */; };
+		BEE288CC2BABF3A7002714F1 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE288CB2BABF3A7002714F1 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BEE288C02BABF1A7002714F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE288C32BABF1A7002714F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEE288C52BABF1A7002714F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE288CB2BABF3A7002714F1 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BEE288BC2BABF1A5002714F1 /* VisionOSDrawingApp.swift */,
 				BEE288BE2BABF1A5002714F1 /* ContentView.swift */,
+				BEE288CB2BABF3A7002714F1 /* DrawingView.swift */,
 				BEE288C02BABF1A7002714F1 /* Assets.xcassets */,
 				BEE288C52BABF1A7002714F1 /* Info.plist */,
 				BEE288C22BABF1A7002714F1 /* Preview Content */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE288CC2BABF3A7002714F1 /* DrawingView.swift in Sources */,
 				BEE288BF2BABF1A5002714F1 /* ContentView.swift in Sources */,
 				BEE288BD2BABF1A5002714F1 /* VisionOSDrawingApp.swift in Sources */,
 			);
